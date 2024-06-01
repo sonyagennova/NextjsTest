@@ -1,4 +1,7 @@
 import Image from "next/image";
+import { Card } from "../../collections/Card/Card";
+import { StyledCard } from "../../collections/Card/elements";
+import { StyledSectionContainer } from "../../components/Containers/SectionContainer/elements";
 
 import {
   StyledTextContainer,
@@ -12,17 +15,19 @@ import {
 
 export const Hero = ({ image, title, description, ctaText, ...props }) => {
   return (
-    <StyledContainer {...props}>
+    <StyledContainer {...props} className="body-container">
       <StyledTextContainer>
         <StyledTitle>{title}</StyledTitle>
         <StyledDescription>{description}</StyledDescription>
-        <StyledCTAContainer>
-          <StyledGetStartedBtn>{ctaText}</StyledGetStartedBtn>
-        </StyledCTAContainer>
-      </StyledTextContainer>
+        
+        <StyledSectionContainer>
       <StyledImageContainer>
         <Image layout="responsive" src={image.src} alt={image.alt} width={image.width} height={image.height} />
-      </StyledImageContainer>
+      </StyledImageContainer> 
+          <Card></Card>
+        </StyledSectionContainer>
+      </StyledTextContainer>
+      
     </StyledContainer>
   );
 };
