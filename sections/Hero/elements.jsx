@@ -17,7 +17,7 @@ export const StyledGetStartedBtn = styled((props) => <Button {...props} variant=
 export const StyledTitle = styled((props) => <SectionBigHeading {...props} />)`
   color: black;
   font-size: 40px;
-  margin: 20px 0 0 0;
+  margin: 50px 0 0 0;
   text-align: center;
 `;
 
@@ -28,8 +28,6 @@ export const StyledDescription = styled((props) => <SectionSubheading {...props}
 
 export const StyledTextContainer = styled(({ ...props }) => <div {...props} />)`
   color: black;
-  //width: 50%;
-  // margin-left: 11.125rem;
   font-family: sans-serif;
   
 `;
@@ -41,12 +39,12 @@ export const StyledCTAContainer = styled(({ ...props }) => <div {...props} />)`
 export const StyledImageContainer = styled(({ ...props }) => <div {...props} />)`
   max-width: 32.03rem;
   max-height: 65rem;
-  width: 250px;
+  width: 300px;
   height: 100%;
   margin-right: auto;
   background-image: url('/img/background.png');
   background-repeat: no-repeat;
   background-position: left;
-  background-size: 170%; 
-  padding-left: 200px;
+  background-size: 170%;
+  padding-left: 240px; 
 `;
