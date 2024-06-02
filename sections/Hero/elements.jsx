@@ -6,6 +6,9 @@ export const StyledContainer = styled(({ height, ...props }) => <SectionContaine
   display: flex;
   justify-content: center;
   align-items: center;
+  @media screen and (max-width: 1024px) {
+    max-width: fit-content;
+  }
 `;
 
 export const StyledGetStartedBtn = styled((props) => <Button {...props} variant="contained" color="main" />)`
@@ -48,4 +51,7 @@ export const StyledImageContainer = styled(({ ...props }) => <div {...props} />)
   background-size: 170%;
   padding-left: 240px; 
   transform: translateX(-120px);
+  @media screen and (max-width: 1024px) {
+    margin: auto;
+  }
 `;

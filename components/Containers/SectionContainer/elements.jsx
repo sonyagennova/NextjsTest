@@ -4,12 +4,16 @@ export const StyledSectionContainer = styled(({ topMargin = 0, bottomMargin = 0,
   display: flex;
   max-width: 1920px;
   width: 100%;
-  //gap: 6rem;
   height: auto;
   margin-left: auto;
   margin-right: auto;
   margin-top: ${({ topMargin }) => topMargin}rem;
   margin-bottom: ${({ bottomMargin }) => bottomMargin}rem;
+  @media screen and (max-width: 1024px) {
+    flex-direction: column;
+    margin-bottom: 3rem;
+    gap: 4rem;
+  }
 `;
 
 export const StyledCardContainer = styled((props) => <div {...props}/>)`
@@ -18,4 +22,7 @@ export const StyledCardContainer = styled((props) => <div {...props}/>)`
   gap: 25px;
   justify-content: center;
   width: 500px;
+  @media screen and (max-width: 1024px) {
+    transform: translateX(60px);
+  }
 `;
