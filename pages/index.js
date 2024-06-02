@@ -21,12 +21,6 @@ export default function Home() {
       rel="stylesheet"
       href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200"
     />
-        <style>{`
-        .body-container {
-          background-image: url('/img/background.png');
-        }
-        `}
-        </style>
       </head>
       <div>
         <Hero {...heroProps} />
