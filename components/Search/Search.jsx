@@ -1,4 +1,6 @@
 import { StyledCardInnerContainer, StyledCardInnerImage, StyledCardInnerText } from "../../collections/Card/elements"
+import { SectionParagraph } from "../Typography/SectionParagraph"
+import { SectionTinyHeading } from "../Typography/SectionTinyHeading"
 
 export const SearchComponent = () => {
     return (
@@ -7,11 +9,13 @@ export const SearchComponent = () => {
             <span className="material-symbols-outlined"> handshake </span>
           </StyledCardInnerImage>
           <StyledCardInnerText>
-            <h3>Search</h3>
-            <p>
+            <SectionParagraph>
+            Search
+            </SectionParagraph>
+            <SectionTinyHeading>
               Lorem ipsum dolor sit amet consectetur adipisicing elit. Eveniet
               qui provident.
-            </p>
+            </SectionTinyHeading>
             </StyledCardInnerText>
         </StyledCardInnerContainer>
     )

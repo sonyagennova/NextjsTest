@@ -1,5 +1,6 @@
 import { StyledCardInnerContainer, StyledCardInnerImage, StyledCardInnerText } from "../../collections/Card/elements"
-import SectionBigHeading from "../Typography/SectionBigHeading"
+import {SectionParagraph } from "../Typography/SectionParagraph"
+import { SectionTinyHeading } from "../Typography/SectionTinyHeading"
 export const PitchComponent = () => {
     return (
       <StyledCardInnerContainer>
@@ -7,13 +8,15 @@ export const PitchComponent = () => {
             <span className="material-symbols-outlined"> handshake </span>
           </StyledCardInnerImage>
           <StyledCardInnerText>
-            <SectionBigHeading>
-            <h3>Pitch</h3>
-            </SectionBigHeading>
-            <p>
+            <SectionParagraph>
+            Pitch
+            </SectionParagraph>
+            <SectionTinyHeading>
+            
               Lorem ipsum dolor sit amet consectetur adipisicing elit. Eveniet
               qui provident.
-            </p>
+            
+            </SectionTinyHeading>
             </StyledCardInnerText>
         </StyledCardInnerContainer>
     )

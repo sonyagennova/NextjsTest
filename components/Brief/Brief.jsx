@@ -1,4 +1,6 @@
 import { StyledCardInnerContainer, StyledCardInnerImage, StyledCardInnerText } from "../../collections/Card/elements"
+import { SectionParagraph } from "../Typography/SectionParagraph"
+import { SectionTinyHeading } from "../Typography/SectionTinyHeading"
 
 export const BriefComponent = () => {
     return (
@@ -7,11 +9,13 @@ export const BriefComponent = () => {
             <span className="material-symbols-outlined"> handshake </span>
           </StyledCardInnerImage>
           <StyledCardInnerText>
-            <h3>Brief</h3>
-            <p>
+            <SectionParagraph>
+            Brief
+            </SectionParagraph>
+            <SectionTinyHeading>
               Lorem ipsum dolor sit amet consectetur adipisicing elit. Eveniet
               qui provident.
-            </p>
+            </SectionTinyHeading>
             </StyledCardInnerText>
         </StyledCardInnerContainer>
     )
