@@ -4,7 +4,7 @@ export const StyledSectionContainer = styled(({ topMargin = 0, bottomMargin = 0,
   display: flex;
   max-width: 1920px;
   width: 100%;
-  gap: 6rem;
+  //gap: 6rem;
   height: auto;
   margin-left: auto;
   margin-right: auto;

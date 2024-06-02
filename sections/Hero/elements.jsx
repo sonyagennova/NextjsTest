@@ -44,7 +44,8 @@ export const StyledImageContainer = styled(({ ...props }) => <div {...props} />)
   margin-right: auto;
   background-image: url('/img/background.png');
   background-repeat: no-repeat;
-  background-position: left;
+  background-position: left center;
   background-size: 170%;
   padding-left: 240px; 
+  transform: translateX(-120px);
 `;
