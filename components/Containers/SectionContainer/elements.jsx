@@ -24,5 +24,6 @@ export const StyledCardContainer = styled((props) => <div {...props}/>)`
   width: 500px;
   @media screen and (max-width: 1024px) {
     transform: translateX(60px);
+    width: 460px;
   }
 `;
