@@ -19,6 +19,7 @@ export const StyledCardInnerContainer = styled((props) => <div {...props}/>)`
   }
   :hover{
     border: 2px #3a6ef7 solid;
+    cursor: pointer;
   }
 `;
 
