@@ -3,5 +3,5 @@ import { PitchComponent } from "./Pitch";
 
 export const StyledPitchComponent = styled((props) => <div {...props}/>)`
     background-color: #f1f1f1;
-    width: 100%;
+    width: 95%;
 `;
