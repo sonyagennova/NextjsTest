@@ -41,7 +41,12 @@ export const StyledCTAContainer = styled(({ ...props }) => <div {...props} />)`
 export const StyledImageContainer = styled(({ ...props }) => <div {...props} />)`
   max-width: 32.03rem;
   max-height: 65rem;
-  width: 300px;
+  width: 250px;
   height: 100%;
   margin-right: auto;
+  background-image: url('/img/background.png');
+  background-repeat: no-repeat;
+  background-position: left;
+  background-size: 170%; 
+  padding-left: 200px;
 `;

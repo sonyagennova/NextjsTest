@@ -15,7 +15,7 @@ import {
 
 export const Hero = ({ image, title, description, ctaText, ...props }) => {
   return (
-    <StyledContainer {...props} className="body-container">
+    <StyledContainer {...props}>
       <StyledTextContainer>
         <StyledTitle>{title}</StyledTitle>
         <StyledDescription>{description}</StyledDescription>
