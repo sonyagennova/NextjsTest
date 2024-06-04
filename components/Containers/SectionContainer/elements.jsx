@@ -16,6 +16,8 @@ export const StyledSectionContainer = styled(({ topMargin = 0, bottomMargin = 0,
   }
 `;
 
+
+// This is the container in which are held all of the three cards (Brief, Search and Pitch)
 export const StyledCardContainer = styled((props) => <div {...props}/>)`
   display: flex;
   flex-direction: column;

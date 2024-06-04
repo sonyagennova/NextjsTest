@@ -1,11 +1,13 @@
 import styled from "styled-components";
 
+// This is the container which holds the text in one card
 export const StyledCardInnerText = styled((props) => <div {...props}/>)`
   flex-direction: column;
   justify-content: center;
   display: flex;
 `;
 
+// This is the container which holds all of the elements in a card
 export const StyledCardInnerContainer = styled((props) => <div {...props}/>)`
   display: flex;
   height: 110px;
@@ -23,6 +25,8 @@ export const StyledCardInnerContainer = styled((props) => <div {...props}/>)`
   }
 `;
 
+
+// Thhis is the container which holds the icon image of a card
 export const StyledCardInnerImage = styled((props) => <div {...props}/>)`
   display: flex;
   width: 100px;
