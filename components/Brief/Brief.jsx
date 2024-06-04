@@ -24,7 +24,7 @@ export const BriefComponent = () => {
                 <SectionTinyHeading>
                     Complete
                     <b>brief writing or simple quidiance</b>
-                    on what to include, we've got you covered.
+                    on what to include, we&apos;ve got you covered.
                 </SectionTinyHeading>
             </StyledCardInnerText>
         </StyledCardInnerContainer>
